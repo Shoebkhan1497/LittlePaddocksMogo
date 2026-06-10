@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Special Events and Booking | Little Paddocks Mogo</title>
+  <meta name="description" content="Special events and booking page for workshops and enquiries." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body class="events-page">
+  <a class="skip-link" href="#main">Skip to content</a>
+  
+<header class="site-header">
+  <div class="nav-wrap">
+    <a class="brand" href="index.html" aria-label="Little Paddocks Mogo home">
+      <span class="brand-mark" aria-hidden="true">LP</span>
+      <span class="brand-text">
+        <strong>Little Paddocks</strong>
+        <span>Tea House • Small Stalls</span>
+      </span>
+    </a>
+    <nav class="nav-links" id="navLinks" aria-label="Main navigation">
+      <a href="index.html" data-page="home">Home Page</a>
+      <a href="about.html" data-page="about">About Us</a>
+      <a href="menu.html" data-page="menu">Our Menu</a>
+      <a href="today-special.html" data-page="today">Today Special</a>
+      <a href="events-booking.html" data-page="events">Special Events & Booking</a>
+    </nav>
+    <div class="button-row">
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="navLinks">Menu</button>
+      <button class="cart-button" id="cartButton" type="button" aria-label="Open cart">Cart <span class="cart-count" id="cartCount">0</span></button>
+    </div>
+  </div>
+</header>
+
+  <main id="main">
+    
+<section class="hero" style="background-image: linear-gradient(90deg, rgba(247, 243, 236, .72), rgba(247, 243, 236, .18)), url('assets/images/events-booking-bg.jpg');" aria-labelledby="eventsTitle">
+  <div class="hero-inner">
+    <div class="hero-card">
+      <p class="eyebrow">Special Events and Booking</p>
+      <h1 id="eventsTitle">Gather, create and connect.</h1>
+      <p class="lead">Book workshops, Make & Sips, Alchemy sessions, seasonal retreats and community storytelling experiences.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <div><p class="eyebrow">Upcoming experiences</p><h2>Choose an event.</h2></div>
+      <p>Each event includes a simple booking enquiry path so visitors can ask questions, reserve places or request group sessions.</p>
+    </div>
+    <div class="grid-3">
+      <article class="event-card">
+        <div class="event-image"><img src="https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?auto=format&fit=crop&w=900&q=80" alt="Hands shaping clay" loading="lazy"></div>
+        <div class="event-body"><p class="event-meta">14 June 2026 • A$65</p><h3>Clay & Stillness</h3><p>Hand-build a small clay piece while sharing tea in a calm creative setting.</p><button class="btn" type="button" data-book="Clay & Stillness">Book / enquire</button></div>
+      </article>
+      <article class="event-card">
+        <div class="event-image"><img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=900&q=80" alt="Tea and journaling setting" loading="lazy"></div>
+        <div class="event-body"><p class="event-meta">22 June 2026 • A$88</p><h3>Winter In Circle</h3><p>A seasonal gathering with tea, story and gentle reflection.</p><button class="btn" type="button" data-book="Winter In Circle">Book / enquire</button></div>
+      </article>
+      <article class="event-card">
+        <div class="event-image"><img src="https://images.unsplash.com/photo-1457089328109-e5d9bd499191?auto=format&fit=crop&w=900&q=80" alt="Watercolour florals" loading="lazy"></div>
+        <div class="event-body"><p class="event-meta">29 June 2026 • A$59</p><h3>Watercolour Florals Make & Sip</h3><p>Paint soft garden-inspired florals with tea and slow conversation.</p><button class="btn" type="button" data-book="Watercolour Florals Make & Sip">Book / enquire</button></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section alt booking-section">
+  <div class="container booking-grid">
+    <div class="content-panel booking-info-card">
+      <p class="eyebrow">Booking information</p>
+      <h2>Spaces for small gatherings.</h2>
+      <p>Little Paddocks Mogo can welcome up to 50 guests across indoor, outdoor and lawn areas. Guests can mention their preferred seating area while sending a booking enquiry.</p>
+      <ul class="text-list">
+        <li>Indoor seating available</li>
+        <li>Outdoor seating available</li>
+        <li>Lawn area available for relaxed gatherings</li>
+        <li>Maximum capacity: 50 guests</li>
+      </ul>
+    </div>
+    <form class="form-card booking-form-card" id="contactForm">
+      <p class="eyebrow">Booking enquiry form</p>
+      <h3>Send your details</h3>
+      <label for="contactName">Name</label>
+      <input id="contactName" name="contactName" type="text" required>
+      <label for="contactEmail">Email</label>
+      <input id="contactEmail" name="contactEmail" type="email" required>
+      <label for="contactTopic">What are you interested in?</label>
+      <select id="contactTopic" name="contactTopic">
+        <option>Workshop or Make & Sip</option>
+        <option>Today Special</option>
+        <option>Alchemy offering</option>
+        <option>Playback Theatre</option>
+        <option>Private group booking</option>
+      </select>
+      <label for="seatingArea">Preferred seating area</label>
+      <select id="seatingArea" name="seatingArea">
+        <option>Indoor</option>
+        <option>Outdoor</option>
+        <option>Lawn Area</option>
+        <option>No preference</option>
+      </select>
+      <label for="contactMessage">Message</label>
+      <textarea id="contactMessage" name="contactMessage" rows="5" required></textarea>
+      <button class="btn moss" type="submit">Send booking enquiry</button>
+      <div class="status-message" id="contactStatus" role="status"></div>
+    </form>
+  </div>
+</section>
+
+  </main>
+  
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div>
+      <h2>Little Paddocks Mogo</h2>
+      <p>Tea • Ritual • Creativity • Connection</p>
+      <p>STEP IN. Life is Beautiful. 🌻</p>
+    </div>
+    <div>
+      <h3>Pages</h3>
+      <div class="footer-links">
+        <a href="index.html">Home Page</a>
+        <a href="about.html">About Us</a>
+        <a href="menu.html">Our Menu</a>
+      </div>
+    </div>
+    <div>
+      <h3>Experiences</h3>
+      <div class="footer-links">
+        <a href="today-special.html">Today Special</a>
+        <a href="events-booking.html">Special Events</a>
+        <a href="events-booking.html">Booking</a>
+      </div>
+    </div>
+    <div>
+      <h3>Connect</h3>
+      <div class="footer-links">
+        <a href="mailto:littlepaddocksmogo@gmail.com">littlepaddocksmogo@gmail.com</a>
+        <a href="https://www.google.com/maps/dir/?api=1&destination=118%20Princes%20Hwy%2C%20Mogo%20NSW%202536%2C%20Australia" target="_blank" rel="noreferrer">118 Princes Hwy, Mogo NSW 2536, Australia</a>
+        <a href="https://www.instagram.com/littlepaddocksmogo" target="_blank" rel="noreferrer">Instagram</a>
+        <a href="https://www.facebook.com/share/1HdBiine" target="_blank" rel="noreferrer">Facebook</a>
+        <a href="events-booking.html">Send enquiry</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  
+<div class="modal-backdrop" id="modalBackdrop"></div>
+<section class="booking-modal" id="bookingModal" role="dialog" aria-modal="true" aria-labelledby="bookingTitle" tabindex="-1">
+  <div class="modal-head">
+    <div>
+      <p class="eyebrow">Booking enquiry</p>
+      <h2 id="bookingTitle">Reserve your place</h2>
+    </div>
+    <button class="icon-button" id="closeBooking" type="button" aria-label="Close booking form">×</button>
+  </div>
+  <p id="selectedEventText"><strong>Selected:</strong> Creative Workshop</p>
+  <form id="bookingForm">
+    <label for="bookingName">Full name</label>
+    <input id="bookingName" name="bookingName" type="text" required>
+    <label for="bookingEmail">Email</label>
+    <input id="bookingEmail" name="bookingEmail" type="email" required>
+    <label for="bookingGuests">Number of guests</label>
+    <select id="bookingGuests" name="bookingGuests">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5-10</option>
+      <option>11-20</option>
+      <option>21-50</option>
+    </select>
+    <p class="small-note">Maximum capacity: 50 guests.</p>
+    <label for="bookingArea">Preferred seating area</label>
+    <select id="bookingArea" name="bookingArea">
+      <option>Indoor</option>
+      <option>Outdoor</option>
+      <option>Lawn Area</option>
+      <option>No preference</option>
+    </select>
+    <label for="bookingNotes">Notes or accessibility needs</label>
+    <textarea id="bookingNotes" name="bookingNotes" rows="4"></textarea>
+    <div class="button-row">
+      <button class="btn moss" type="submit">Send enquiry</button>
+      <button class="btn secondary" type="button" id="paymentMock">Continue to payment</button>
+    </div>
+    <div class="status-message" id="bookingStatus" role="status"></div>
+  </form>
+</section>
+
+<div class="cart-backdrop" id="cartBackdrop"></div>
+<aside class="cart-panel" id="cartPanel" aria-labelledby="cartTitle" aria-hidden="true">
+  <div class="cart-head">
+    <div>
+      <p class="eyebrow">Order summary</p>
+      <h2 id="cartTitle">Your cart</h2>
+    </div>
+    <button class="icon-button" id="closeCart" type="button" aria-label="Close shopping cart">×</button>
+  </div>
+  <div class="cart-items" id="cartItems"></div>
+  <div class="cart-summary">
+    <div class="cart-summary-row"><span>Total</span><span id="cartTotal">A$0</span></div>
+    <button class="btn moss" type="button" id="checkoutMock" style="width:100%;">Continue to checkout</button>
+    <div class="status-message" id="cartStatus" role="status">Prototype checkout: payment will be connected during implementation.</div>
+  </div>
+</aside>
+
+  <script src="assets/js/main.js"></script>
+  <script>
+    document.querySelectorAll('[data-page]').forEach(link => {
+      if (link.dataset.page === 'events') link.classList.add('active');
+    });
+  </script>
+</body>
+</html>

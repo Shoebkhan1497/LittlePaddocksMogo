@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us | Little Paddocks Mogo</title>
+  <meta name="description" content="About Little Paddocks Mogo and its creative wellness purpose." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body class="about-page">
+  <a class="skip-link" href="#main">Skip to content</a>
+  
+<header class="site-header">
+  <div class="nav-wrap">
+    <a class="brand" href="index.html" aria-label="Little Paddocks Mogo home">
+      <span class="brand-mark" aria-hidden="true">LP</span>
+      <span class="brand-text">
+        <strong>Little Paddocks</strong>
+        <span>Tea House • Small Stalls</span>
+      </span>
+    </a>
+    <nav class="nav-links" id="navLinks" aria-label="Main navigation">
+      <a href="index.html" data-page="home">Home Page</a>
+      <a href="about.html" data-page="about">About Us</a>
+      <a href="menu.html" data-page="menu">Our Menu</a>
+      <a href="today-special.html" data-page="today">Today Special</a>
+      <a href="events-booking.html" data-page="events">Special Events & Booking</a>
+    </nav>
+    <div class="button-row">
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="navLinks">Menu</button>
+      <button class="cart-button" id="cartButton" type="button" aria-label="Open cart">Cart <span class="cart-count" id="cartCount">0</span></button>
+    </div>
+  </div>
+</header>
+
+  <main id="main">
+    
+<section class="hero" style="background-image: linear-gradient(90deg, rgba(247, 243, 236, .72), rgba(247, 243, 236, .18)), url('assets/images/about-hero-bg.jpg');" aria-labelledby="aboutTitle">
+  <div class="hero-inner">
+    <div class="hero-card">
+      <p class="eyebrow">About Us</p>
+      <h1 id="aboutTitle">This is not just a place you visit.</h1>
+      <p class="lead">Little Paddocks is something you step into, a slow, handmade and welcoming world of tea, creativity and connection.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section about-story-section">
+  <div class="container grid-2 about-story-grid">
+    <div class="content-panel about-story-panel">
+      <p class="eyebrow">Our story</p>
+      <h2>A creative wellness space in Mogo.</h2>
+      <p>Little Paddocks brings people together through tea, seasonal making, small workshops, retreats and storytelling. The space is grounded in nature, handmade textures and meaningful connection.</p>
+      <p>Visitors may come for tea, Create ritual pottery painting, a quiet gathering, an Alchemy session or a Playback Theatre experience. Each offering is designed to feel personal, calm and authentic.</p>
+      <ul class="text-list">
+        <li>Slow and sensory experiences</li>
+        <li>Tea, flowers, clay and natural textures</li>
+        <li>Small-group workshops and community events</li>
+        <li>Creativity as a pathway to wellbeing</li>
+      </ul>
+    </div>
+    <div class="image-rounded about-story-image">
+      <img src="assets/images/about-tea-shelf.jpg" alt="Tea pots and matcha whisks displayed at Little Paddocks Mogo" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<section class="section alt">
+  <div class="container">
+    <div class="quick-band">
+      <div>
+        <p class="eyebrow">Our feeling</p>
+        <h2>Warm. Grounded. Calm.</h2>
+        <p>The website and brand should feel authentic rather than polished, simple rather than crowded, and welcoming rather than commercial.</p>
+      </div>
+      <a class="btn secondary" href="events-booking.html">Plan a visit</a>
+    </div>
+  </div>
+</section>
+
+  </main>
+  
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div>
+      <h2>Little Paddocks Mogo</h2>
+      <p>Tea • Ritual • Creativity • Connection</p>
+      <p>STEP IN. Life is Beautiful. 🌻</p>
+    </div>
+    <div>
+      <h3>Pages</h3>
+      <div class="footer-links">
+        <a href="index.html">Home Page</a>
+        <a href="about.html">About Us</a>
+        <a href="menu.html">Our Menu</a>
+      </div>
+    </div>
+    <div>
+      <h3>Experiences</h3>
+      <div class="footer-links">
+        <a href="today-special.html">Today Special</a>
+        <a href="events-booking.html">Special Events</a>
+        <a href="events-booking.html">Booking</a>
+      </div>
+    </div>
+    <div>
+      <h3>Connect</h3>
+      <div class="footer-links">
+        <a href="mailto:littlepaddocksmogo@gmail.com">littlepaddocksmogo@gmail.com</a>
+        <a href="https://www.google.com/maps/dir/?api=1&destination=118%20Princes%20Hwy%2C%20Mogo%20NSW%202536%2C%20Australia" target="_blank" rel="noreferrer">118 Princes Hwy, Mogo NSW 2536, Australia</a>
+        <a href="https://www.instagram.com/littlepaddocksmogo" target="_blank" rel="noreferrer">Instagram</a>
+        <a href="https://www.facebook.com/share/1HdBiine" target="_blank" rel="noreferrer">Facebook</a>
+        <a href="events-booking.html">Send enquiry</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  
+<div class="modal-backdrop" id="modalBackdrop"></div>
+<section class="booking-modal" id="bookingModal" role="dialog" aria-modal="true" aria-labelledby="bookingTitle" tabindex="-1">
+  <div class="modal-head">
+    <div>
+      <p class="eyebrow">Booking enquiry</p>
+      <h2 id="bookingTitle">Reserve your place</h2>
+    </div>
+    <button class="icon-button" id="closeBooking" type="button" aria-label="Close booking form">×</button>
+  </div>
+  <p id="selectedEventText"><strong>Selected:</strong> Creative Workshop</p>
+  <form id="bookingForm">
+    <label for="bookingName">Full name</label>
+    <input id="bookingName" name="bookingName" type="text" required>
+    <label for="bookingEmail">Email</label>
+    <input id="bookingEmail" name="bookingEmail" type="email" required>
+    <label for="bookingGuests">Number of guests</label>
+    <select id="bookingGuests" name="bookingGuests">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5-10</option>
+      <option>11-20</option>
+      <option>21-50</option>
+    </select>
+    <p class="small-note">Maximum capacity: 50 guests.</p>
+    <label for="bookingArea">Preferred seating area</label>
+    <select id="bookingArea" name="bookingArea">
+      <option>Indoor</option>
+      <option>Outdoor</option>
+      <option>Lawn Area</option>
+      <option>No preference</option>
+    </select>
+    <label for="bookingNotes">Notes or accessibility needs</label>
+    <textarea id="bookingNotes" name="bookingNotes" rows="4"></textarea>
+    <div class="button-row">
+      <button class="btn moss" type="submit">Send enquiry</button>
+      <button class="btn secondary" type="button" id="paymentMock">Continue to payment</button>
+    </div>
+    <div class="status-message" id="bookingStatus" role="status"></div>
+  </form>
+</section>
+
+<div class="cart-backdrop" id="cartBackdrop"></div>
+<aside class="cart-panel" id="cartPanel" aria-labelledby="cartTitle" aria-hidden="true">
+  <div class="cart-head">
+    <div>
+      <p class="eyebrow">Order summary</p>
+      <h2 id="cartTitle">Your cart</h2>
+    </div>
+    <button class="icon-button" id="closeCart" type="button" aria-label="Close shopping cart">×</button>
+  </div>
+  <div class="cart-items" id="cartItems"></div>
+  <div class="cart-summary">
+    <div class="cart-summary-row"><span>Total</span><span id="cartTotal">A$0</span></div>
+    <button class="btn moss" type="button" id="checkoutMock" style="width:100%;">Continue to checkout</button>
+    <div class="status-message" id="cartStatus" role="status">Prototype checkout: payment will be connected during implementation.</div>
+  </div>
+</aside>
+
+  <script src="assets/js/main.js"></script>
+  <script>
+    document.querySelectorAll('[data-page]').forEach(link => {
+      if (link.dataset.page === 'about') link.classList.add('active');
+    });
+  </script>
+</body>
+</html>

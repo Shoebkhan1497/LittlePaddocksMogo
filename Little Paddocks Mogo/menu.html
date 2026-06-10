@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Menu | Little Paddocks Mogo</title>
+  <meta name="description" content="Menu page for tea, small plates, creative kits and small stalls." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  
+<header class="site-header">
+  <div class="nav-wrap">
+    <a class="brand" href="index.html" aria-label="Little Paddocks Mogo home">
+      <span class="brand-mark" aria-hidden="true">LP</span>
+      <span class="brand-text">
+        <strong>Little Paddocks</strong>
+        <span>Tea House • Small Stalls</span>
+      </span>
+    </a>
+    <nav class="nav-links" id="navLinks" aria-label="Main navigation">
+      <a href="index.html" data-page="home">Home Page</a>
+      <a href="about.html" data-page="about">About Us</a>
+      <a href="menu.html" data-page="menu">Our Menu</a>
+      <a href="today-special.html" data-page="today">Today Special</a>
+      <a href="events-booking.html" data-page="events">Special Events & Booking</a>
+    </nav>
+    <div class="button-row">
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="navLinks">Menu</button>
+      <button class="cart-button" id="cartButton" type="button" aria-label="Open cart">Cart <span class="cart-count" id="cartCount">0</span></button>
+    </div>
+  </div>
+</header>
+
+  <main id="main">
+
+<section class="hero" style="--hero-image: url('https://images.unsplash.com/photo-1564890369478-c89ca6d9cde9?auto=format&fit=crop&w=1800&q=80')" aria-labelledby="menuTitle">
+  <div class="hero-inner">
+    <div class="hero-card">
+      <p class="eyebrow">Our Menu</p>
+      <h1 id="menuTitle">Tea, Clay and Connection</h1>
+      <p class="lead">Explore herbal tea blends, black tea favourites and handmade Mogo clay pieces created for slow rituals and connection.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section alt">
+  <div class="container">
+    <div class="section-heading">
+      <p class="eyebrow">Tea Collection</p>
+      <h2>Herbal Tea Collection</h2>
+    </div>
+    <div class="grid-2 tea-card-grid">
+      <article class="card tea-card product-card">
+        <div>
+          <h3>Earth’s Kiss</h3>
+          <p class="tea-note">Grounding / Caffeine free</p>
+          <p>Roasted dandelion root, cinnamon, ginger and cacao nibs. Rich, rooty and comforting.</p>
+        </div>
+        <div class="product-action">
+          <div class="menu-price">$8</div>
+          <button class="btn secondary menu-cart-btn" type="button" data-add-product data-title="Earth’s Kiss" data-price="8" data-image="assets/images/home-hero-bg.jpg">Add to cart</button>
+        </div>
+      </article>
+
+      <article class="card tea-card product-card">
+        <div>
+          <h3>Blue Horizon</h3>
+          <p>Blue pea flower and lemongrass. Vibrant, cleansing and slightly mystical.</p>
+        </div>
+        <div class="product-action">
+          <div class="menu-price">$8</div>
+          <button class="btn secondary menu-cart-btn" type="button" data-add-product data-title="Blue Horizon" data-price="8" data-image="assets/images/home-hero-bg.jpg">Add to cart</button>
+        </div>
+      </article>
+
+      <article class="card tea-card product-card">
+        <div>
+          <h3>Daisy Chain</h3>
+          <p>“Sunshine in a teapot. Bright lemongrass and warming ginger lifted by golden calendula petals.”</p>
+        </div>
+        <div class="product-action">
+          <div class="menu-price">$8</div>
+          <button class="btn secondary menu-cart-btn" type="button" data-add-product data-title="Daisy Chain" data-price="8" data-image="assets/images/home-hero-bg.jpg">Add to cart</button>
+        </div>
+      </article>
+
+      <article class="card tea-card product-card">
+        <div>
+          <h3>Walbunja Morning</h3>
+          <p class="tea-note">Lemongrass • Lemon Myrtle • Chamomile</p>
+          <p>“A gentle wander through the bush. Native lemon myrtle and lemongrass softened with seasonal citrus.”</p>
+        </div>
+        <div class="product-action">
+          <div class="menu-price">$8</div>
+          <button class="btn secondary menu-cart-btn" type="button" data-add-product data-title="Walbunja Morning" data-price="8" data-image="assets/images/home-hero-bg.jpg">Add to cart</button>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-heading">
+      <p class="eyebrow">Tea Collection</p>
+      <h2>Black Tea Collection</h2>
+    </div>
+    <div class="grid-3 tea-card-grid">
+      <article class="card tea-card product-card">
+        <div>
+          <h3>Apothecary Earl Gray</h3>
+          <p>A fragrant black tea layered with bergamot citrus and delicate florals. Inspired by the apothecary traditions of my Great Grandfather in Shoe Lane, London.</p>
+        </div>
+        <div class="product-action">
+          <div class="menu-price">$9</div>
+          <button class="btn secondary menu-cart-btn" type="button" data-add-product data-title="Apothecary Earl Gray" data-price="9" data-image="assets/images/home-hero-bg.jpg">Add to cart</button>
+        </div>
+      </article>
+
+      <article class="card tea-card product-card">
+        <div>
+          <h3>Shoe Lane Breakfast</h3>
+          <p class="tea-note">The tea chest that started it all.</p>
+          <p>A bold and comforting morning tea inspired by the bustling streets of old London.</p>
+        </div>
+        <div class="product-action">
+          <div class="menu-price">$9</div>
+          <button class="btn secondary menu-cart-btn" type="button" data-add-product data-title="Shoe Lane Breakfast" data-price="9" data-image="assets/images/home-hero-bg.jpg">Add to cart</button>
+        </div>
+      </article>
+
+      <article class="card tea-card product-card">
+        <div>
+          <h3>The Flower Gatherer - Ceylon Tea</h3>
+          <p>Bright and uplifting, crafted for wandering gardens and slow conversation.</p>
+        </div>
+        <div class="product-action">
+          <div class="menu-price">$9</div>
+          <button class="btn secondary menu-cart-btn" type="button" data-add-product data-title="The Flower Gatherer - Ceylon Tea" data-price="9" data-image="assets/images/home-hero-bg.jpg">Add to cart</button>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section alt earth-collection-section">
+  <div class="container grid-2 earth-collection-grid">
+    <div class="content-panel earth-collection-panel">
+      <p class="eyebrow">Ceramic Collection</p>
+      <h2>Made of Mogo Earth Collection</h2>
+      <p>Handcrafted from wild clay gathered and processed in Mogo, NSW. Each piece carries the unique character, texture and story of the land from which it came.</p>
+      <div class="menu-list">
+
+<div class="menu-row">
+  <div><h3>Wild Clay Chawan (Matcha Bowl)</h3><p>Hand-thrown ceremonial bowl designed for whisking and enjoying matcha with intention.</p></div>
+  <div class="menu-price">$65</div>
+  <button class="btn secondary menu-cart-btn" type="button" data-add-product data-title="Wild Clay Chawan (Matcha Bowl)" data-price="65" data-image="assets/images/about-hero-bg.jpg">Add to cart</button>
+</div>
+
+<div class="menu-row">
+  <div><h3>Wild Clay Teacup</h3><p>A simple everyday vessel celebrating the beauty of handmade imperfection.</p></div>
+  <div class="menu-price">$35</div>
+  <button class="btn secondary menu-cart-btn" type="button" data-add-product data-title="Wild Clay Teacup" data-price="35" data-image="assets/images/about-hero-bg.jpg">Add to cart</button>
+</div>
+
+<div class="menu-row">
+  <div><h3>Wild Clay Teapot</h3><p>A functional statement piece crafted for shared tea rituals and slow gatherings.</p></div>
+  <div class="menu-price">$145</div>
+  <button class="btn secondary menu-cart-btn" type="button" data-add-product data-title="Wild Clay Teapot" data-price="145" data-image="assets/images/about-hero-bg.jpg">Add to cart</button>
+</div>
+
+<div class="menu-row">
+  <div><h3>Wild Clay Bud Vase</h3><p>A small vase designed to hold seasonal blooms and bring a touch of nature indoors.</p></div>
+  <div class="menu-price">$45</div>
+  <button class="btn secondary menu-cart-btn" type="button" data-add-product data-title="Wild Clay Bud Vase" data-price="45" data-image="assets/images/about-hero-bg.jpg">Add to cart</button>
+</div>
+
+<div class="menu-row">
+  <div><h3>Wild Clay Feature Vase</h3><p>A sculptural piece inspired by the landscape of Mogo, designed for flowers, branches or display.</p></div>
+  <div class="menu-price">$120</div>
+  <button class="btn secondary menu-cart-btn" type="button" data-add-product data-title="Wild Clay Feature Vase" data-price="120" data-image="assets/images/about-hero-bg.jpg">Add to cart</button>
+</div>
+
+      </div>
+    </div>
+    <div class="earth-collection-gallery single-earth-image">
+      <div class="image-rounded earth-collection-image">
+        <img src="assets/images/menu-earth-collection-single.jpg" alt="Handmade ceramic bowls from the Made of Mogo Earth Collection" loading="lazy">
+      </div>
+    </div>
+  </div>
+</section>
+
+  </main>
+  
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div>
+      <h2>Little Paddocks Mogo</h2>
+      <p>Tea • Ritual • Creativity • Connection</p>
+      <p>STEP IN. Life is Beautiful. 🌻</p>
+    </div>
+    <div>
+      <h3>Pages</h3>
+      <div class="footer-links">
+        <a href="index.html">Home Page</a>
+        <a href="about.html">About Us</a>
+        <a href="menu.html">Our Menu</a>
+      </div>
+    </div>
+    <div>
+      <h3>Experiences</h3>
+      <div class="footer-links">
+        <a href="today-special.html">Today Special</a>
+        <a href="events-booking.html">Special Events</a>
+        <a href="events-booking.html">Booking</a>
+      </div>
+    </div>
+    <div>
+      <h3>Connect</h3>
+      <div class="footer-links">
+        <a href="mailto:littlepaddocksmogo@gmail.com">littlepaddocksmogo@gmail.com</a>
+        <a href="https://www.google.com/maps/dir/?api=1&destination=118%20Princes%20Hwy%2C%20Mogo%20NSW%202536%2C%20Australia" target="_blank" rel="noreferrer">118 Princes Hwy, Mogo NSW 2536, Australia</a>
+        <a href="https://www.instagram.com/littlepaddocksmogo" target="_blank" rel="noreferrer">Instagram</a>
+        <a href="https://www.facebook.com/share/1HdBiine" target="_blank" rel="noreferrer">Facebook</a>
+        <a href="events-booking.html">Send enquiry</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  
+<div class="modal-backdrop" id="modalBackdrop"></div>
+<section class="booking-modal" id="bookingModal" role="dialog" aria-modal="true" aria-labelledby="bookingTitle" tabindex="-1">
+  <div class="modal-head">
+    <div>
+      <p class="eyebrow">Booking enquiry</p>
+      <h2 id="bookingTitle">Reserve your place</h2>
+    </div>
+    <button class="icon-button" id="closeBooking" type="button" aria-label="Close booking form">×</button>
+  </div>
+  <p id="selectedEventText"><strong>Selected:</strong> Creative Workshop</p>
+  <form id="bookingForm">
+    <label for="bookingName">Full name</label>
+    <input id="bookingName" name="bookingName" type="text" required>
+    <label for="bookingEmail">Email</label>
+    <input id="bookingEmail" name="bookingEmail" type="email" required>
+    <label for="bookingGuests">Number of guests</label>
+    <select id="bookingGuests" name="bookingGuests">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5-10</option>
+      <option>11-20</option>
+      <option>21-50</option>
+    </select>
+    <p class="small-note">Maximum capacity: 50 guests.</p>
+    <label for="bookingArea">Preferred seating area</label>
+    <select id="bookingArea" name="bookingArea">
+      <option>Indoor</option>
+      <option>Outdoor</option>
+      <option>Lawn Area</option>
+      <option>No preference</option>
+    </select>
+    <label for="bookingNotes">Notes or accessibility needs</label>
+    <textarea id="bookingNotes" name="bookingNotes" rows="4"></textarea>
+    <div class="button-row">
+      <button class="btn moss" type="submit">Send enquiry</button>
+      <button class="btn secondary" type="button" id="paymentMock">Continue to payment</button>
+    </div>
+    <div class="status-message" id="bookingStatus" role="status"></div>
+  </form>
+</section>
+
+<div class="cart-backdrop" id="cartBackdrop"></div>
+<aside class="cart-panel" id="cartPanel" aria-labelledby="cartTitle" aria-hidden="true">
+  <div class="cart-head">
+    <div>
+      <p class="eyebrow">Order summary</p>
+      <h2 id="cartTitle">Your cart</h2>
+    </div>
+    <button class="icon-button" id="closeCart" type="button" aria-label="Close shopping cart">×</button>
+  </div>
+  <div class="cart-items" id="cartItems"></div>
+  <div class="cart-summary">
+    <div class="cart-summary-row"><span>Total</span><span id="cartTotal">A$0</span></div>
+    <button class="btn moss" type="button" id="checkoutMock" style="width:100%;">Continue to checkout</button>
+    <div class="status-message" id="cartStatus" role="status">Prototype checkout: payment will be connected during implementation.</div>
+  </div>
+</aside>
+
+  <script src="assets/js/main.js"></script>
+  <script>
+    document.querySelectorAll('[data-page]').forEach(link => {
+      if (link.dataset.page === 'menu') link.classList.add('active');
+    });
+  </script>
+</body>
+</html>
